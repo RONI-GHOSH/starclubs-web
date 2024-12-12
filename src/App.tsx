@@ -27,14 +27,25 @@ function App() {
               Join millions of players worldwide. Place your bets, follow live matches, and win big with our secure and intuitive platform.
             </p>
             <div className="flex flex-col sm:flex-row gap-4">
-              <button className="flex items-center justify-center gap-2 bg-gradient-to-r from-pink-500 to-yellow-500 text-white px-8 py-4 rounded-lg font-semibold hover:opacity-90 transition shadow-lg">
-                <Download size={20} />
-                Download App
-              </button>
-              <button className="flex items-center justify-center gap-2 bg-white/10 backdrop-blur-lg text-white px-8 py-4 rounded-lg font-semibold hover:bg-white/20 transition border border-white/20">
-                <Globe size={20} />
-                Play on Web
-              </button>
+            <a
+  href="https://web.starclubs.in"
+  target="_blank"
+  rel="noopener noreferrer"
+  className="flex items-center justify-center gap-2 bg-gradient-to-r from-pink-500 to-yellow-500 text-white px-8 py-4 rounded-lg font-semibold hover:opacity-90 transition shadow-lg"
+>
+  <Download size={20} />
+  Download App
+</a>
+<a
+  href="https://web.starclubs.in/download"
+  target="_blank"
+  rel="noopener noreferrer"
+  className="flex items-center justify-center gap-2 bg-white/10 backdrop-blur-lg text-white px-8 py-4 rounded-lg font-semibold hover:bg-white/20 transition border border-white/20"
+>
+  <Globe size={20} />
+  Play on Web
+</a>
+
             </div>
           </div>
 
