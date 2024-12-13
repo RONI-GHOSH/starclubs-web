@@ -52,7 +52,7 @@ function App() {
           <div className="md:w-1/2 relative">
             <div className="relative z-10">
               <img 
-                src="https://images.unsplash.com/photo-1540979388789-6cee28a1cdc9?auto=format&fit=crop&w=600&q=80" 
+                src="/screenshot.png" 
                 alt="App Preview" 
                 className="rounded-2xl shadow-2xl border-4 border-white/10"
               />
